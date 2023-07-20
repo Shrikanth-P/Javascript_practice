@@ -1,6 +1,6 @@
 // Declaring different variables of different data types
-let firstName = 'Asabeneh' // first name of a person
-let lastName = 'Yetayeh' // last name of a person
+let firstName = 'shrikanth' // first name of a person
+let lastName = 'p' // last name of a person
 let country = 'Finland' // country
 let city = 'Helsinki' // capital city
 let age = 100 // age in years
@@ -12,9 +12,9 @@ const boilingPoint = 100 // water boiling point, temperature in oC
 const PI = 3.14 // geometrical constant
 
 // Variables can also be declaring in one line separated by comma
-let name = 'Asabeneh', 
-  job = 'teacher',
-  live = 'Finland'
+let name = 'shrikanth', 
+  job = 'sofwareTrainee',
+  live = 'Ballari'
 
 const PI = Math.PI
 console.log(PI) // 3.141592653589793
@@ -48,24 +48,12 @@ let nums = [1, 2, 3]
 let numbers = [1, 2, 3]
 console.log(nums == numbers) // false
 
-let userOne = {
-  name: 'Asabeneh',
-  role: 'teaching',
-  country: 'Finland'
-}
-let userTwo = {
-  name: 'Asabeneh',
-  role: 'teaching',
-  country: 'Finland'
-}
-console.log(userOne == userTwo) // false
-
 let numbers = nums
 console.log(nums == numbers)  // true
 
 let userOne = {
-name:'Asabeneh',
-role:'teaching',
+name:'shrikanth',
+role:'sofwareTrainee',
 country:'Finland'
 }
 let userTwo = userOne
@@ -179,7 +167,7 @@ console.log(sumAllNums(1, 2, 3, 4)) // 10
 console.log(sumAllNums(10, 20, 13, 40, 10))  // 93
 console.log(sumAllNums(15, 20, 30, 25, 10, 33, 40))  // 173
 
-const generateFullName = (firstName = 'Asabeneh', lastName = 'Yetayeh') => {
+const generateFullName = (firstName = 'shrikanth', lastName = 'p') => {
   let space = ' '
   let fullName = firstName + space + lastName
   return fullName
